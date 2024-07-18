@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace sSandovalS6.Modelos
 {
-    public class Estudiante
+    public class Estudiantes
     {
         public int codigo { get; set; }
         public string nombre { get; set; }

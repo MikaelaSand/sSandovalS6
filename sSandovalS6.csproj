@@ -54,7 +54,19 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Vews\Estudiante.xaml.cs">
+	    <DependentUpon>Estudiante.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
 	  <MauiXaml Update="Vews\Estudiante.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Vews\v_add.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Vews\v_delete.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
